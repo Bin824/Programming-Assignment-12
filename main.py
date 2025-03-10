@@ -8,7 +8,7 @@ from typing import List
 
 def find_duplicate(nums: List[int]) -> int:
     """
-    Given an array of integers nums containing n + 1 integers where each integer 
+    Given an array of integers nums containing n + 1 integers where each integer
     is in the range [1, n] inclusive, this function finds the repeated number in nums
     """
     low, high = 1, len(nums) - 1
